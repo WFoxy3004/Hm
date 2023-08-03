@@ -1,0 +1,26 @@
+.header{ 
+    width: 100%;
+    height: 70px;
+    background: teal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &_logo{ 
+        
+        &_link{
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: #FFF;
+        }
+    }
+    &_nav{ 
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+        &_item{
+            text-decoration: none;
+            color: #FFF
+        }
+    }
+}
